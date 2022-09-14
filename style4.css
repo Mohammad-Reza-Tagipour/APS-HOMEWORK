@@ -1,0 +1,33 @@
+.cards {
+  gap: 10rem;
+}
+.card {
+  background-color: #e5dbff;
+  padding: 3rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  gap: 5rem;
+}
+.card:hover {
+  background: linear-gradient(to top left, #d0bfff, #e5dbff);
+}
+.about-imgs {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1.4rem;
+}
+.about-text {
+  font-size: 1.6rem;
+}
+table {
+  margin: 4rem auto;
+}
+td,
+th {
+  font-size: 1.6rem;
+}
+th,
+td {
+  border: 1px solid black;
+}
