@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.header {
+  font-family: sans-serif;
+  display: flex;
+  gap: 5rem;
+  padding: 2.8rem;
+  justify-content: center;
+
+  margin: 0 auto;
+  background-color: rgba(239, 234, 224, 0.577);
+}
+.heading-tertiary {
+  font-size: 1.9rem;
+  margin-bottom: 1.4rem;
+}
+.nav-list {
+  display: flex;
+  gap: 4rem;
+}
+.list-item {
+  list-style: none;
+  transition: 0.3ms all;
+  font-size: 1.4rem;
+}
+.nav-link:hover {
+  color: #241b1b;
+}
+
+.nav-cta:link,
+.nav-cta:visited {
+  color: #0a0708;
+  font-size: 1.3;
+}
+.nav-cta:hover,
+.nav-cta:active {
+  color: rgb(227, 208, 170);
+}
+.logo {
+  font-size: 1.4rem;
+  color: #241b1b;
+  position: relative;
+}
+
+.logo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 20px;
+  height: 2px;
+  background-color: #0a0708;
+}
+.nav-link {
+  text-decoration: none;
+  color: #9e8f90;
+}
+.hero {
+  font-family: sans-serif;
+  padding: 4rem 1rem;
+  background-color: #f5f5e9;
+}
+.heading-primary {
+  font-size: 1.9rem;
+  color: #111;
+  margin-bottom: 4rem;
+}
+.hero-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero-btn {
+  display: inline-block;
+  background-color: azure;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s hover;
+}
+.btn-signin {
+  background-color: #9e8f90;
+  margin-left: 1rem;
+}
+.btn-signin:hover {
+  background-color: #0a0708;
+  color: #fff;
+}
+.btn-signup:hover,
+.btn-signup:active {
+  background-color: rgb(51, 51, 70);
+  color: #fff;
+}
+.cards {
+  padding: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+.card-number {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  background-color: antiquewhite;
+  display: inline-block;
+  padding: 1.4rem;
+  border-radius: 4rem;
+  color: #9e8f90;
+}
+.card-text {
+  font-size: 1.6rem;
+}
+
+.card-btn {
+  padding: 0.5rem 1.3rem;
+  margin-top: 1.7rem;
+  color: rgb(176, 171, 171);
+
+  border: none;
+  cursor: pointer;
+}
+.card-btn:hover {
+  background: linear-gradient(to left, #555, #111);
+  color: white;
+}
+
+/* media quarry */
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media screen and (max-width: 785px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 611px) {
+  .cards {
+    flex-direction: column;
+  }
+}

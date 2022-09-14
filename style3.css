@@ -1,0 +1,25 @@
+.img-rules {
+  width: 6rem;
+  height: 6rem;
+}
+.card {
+  text-align: center;
+  background-color: lightgray;
+  padding: 4rem;
+}
+.section-rules-description {
+  margin-top: 5rem;
+}
+.rules-explain {
+  border: 1px solid black;
+  padding: 4rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.rules-des-heading {
+  padding: 10rem 1rem 10rem;
+  border-right: 1px solid black;
+}
